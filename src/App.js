@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 import Employee from './pages/Employee';
 import RoadwaysTeam from './pages/RoadwaysTeam';
 import Outlets from './components/Outlets';
-import Workshop from './workshop';
+import Workshop from './Workshop';
 import VehicleCard from './components/VehicleCard';
 import Loan from './pages/Loan';
 import Location from './pages/Location';
