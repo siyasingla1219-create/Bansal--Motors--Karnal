@@ -1,0 +1,137 @@
+.contact-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 5%;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.page-title h2 {
+  font-size: 36px;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.page-title p {
+  color: #555;
+  font-size: 16px;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.contact-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #ffc107;
+  text-align: center;
+}
+
+.contact-card h3 {
+  font-size: 22px;
+  color: #1a1a1a;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.contact-detail {
+  color: #ffc107;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.location-tip {
+  color: #666;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background: #1a1a1a;
+  color: #ffc107;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s ease;
+  font-size: 15px;
+}
+
+.btn-primary:hover {
+  background: #333;
+}
+
+.contact-hours {
+  background: #f5f5f5;
+  padding: 30px;
+  border-radius: 10px;
+  border-left: 4px solid #ffc107;
+  margin-bottom: 30px;
+}
+
+.contact-hours h3 {
+  color: #1a1a1a;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.contact-hours p {
+  color: #555;
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+.note-section {
+  background: #fffbea;
+  border: 2px solid #ffc107;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 30px 5%;
+  }
+
+  .page-title h2 {
+    font-size: 28px;
+  }
+
+  .contact-content {
+    gap: 20px;
+  }
+
+  .contact-card {
+    padding: 20px;
+  }
+
+  .contact-card h3 {
+    font-size: 18px;
+  }
+
+  .contact-detail {
+    font-size: 18px;
+  }
+
+  .contact-hours {
+    padding: 20px;
+  }
+}

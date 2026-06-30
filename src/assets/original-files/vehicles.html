@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Vehicles - Bansal Motors Karnal</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      color: #1A1A1A;
+      background: #f5f5f5;
+    }
+
+    .header {
+      background: linear-gradient(90deg, #1A1A1A, #333);
+      color: white;
+      padding: 20px 5%;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 32px;
+      letter-spacing: 1px;
+    }
+
+    .header p {
+      color: #FFC107;
+      font-weight: 500;
+      margin-top: 5px;
+    }
+
+    .navbar {
+      background: #FFC107;
+      padding: 12px 5%;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .navbar a {
+      color: #1A1A1A;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .container {
+      padding: 40px 5%;
+    }
+
+    .page-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .page-title h2 {
+      font-size: 36px;
+      color: #1A1A1A;
+    }
+
+    .page-title p {
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .category {
+      margin-bottom: 50px;
+    }
+
+    .category h3 {
+      font-size: 28px;
+      color: #1A1A1A;
+      margin-bottom: 10px;
+      border-left: 4px solid #FFC107;
+      padding-left: 15px;
+    }
+
+    .category p {
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    .vehicle-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+    }
+
+    .vehicle-card {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      border-top: 3px solid #FFC107;
+    }
+
+    .vehicle-card .tag {
+      background: #1A1A1A;
+      color: #FFC107;
+      padding: 8px 15px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .vehicle-info {
+      padding: 20px;
+    }
+
+    .vehicle-info h4 {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+
+    .vehicle-info ul {
+      padding-left: 18px;
+    }
+
+    .vehicle-info li {
+      color: #555;
+      margin: 6px 0;
+      list-style: none;
+    }
+
+    .vehicle-info li::before {
+      content: "✓ ";
+      color: #28a745;
+      font-weight: bold;
+    }
+
+    .btn {
+      background: #1A1A1A;
+      color: #FFC107;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      font-weight: 700;
+      cursor: pointer;
+      width: 100%;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .btn:hover {
+      background: #333;
+    }
+
+    .note {
+      background: #FFF3CD;
+      border: 1px solid #FFC107;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    .footer {
+      background: #1A1A1A;
+      color: #999;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .header h1 {
+        font-size: 24px;
+      }
+
+      .page-title h2 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="header">
+    <h1>BANSAL MOTORS</h1>
+    <p>Authorised Commercial Vehicle Dealer | Est. 2002</p>
+  </header>
+
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="vehicles.html">Our Vehicles</a>
+    <a href="tel:9812999358">📞 Call: 98129 99358</a>
+  </nav>
+
+  <div class="container">
+    <div class="page-title">
+      <h2>Our Vehicle Range</h2>
+      <p>For First Time Users, Transport Customers & Small Business Owners</p>
+    </div>
+
+    <!-- School Bus -->
+    <div class="category">
+      <h3>School & Tourist Buses</h3>
+      <p><strong>90% School Segment</strong> - Trusted by 100+ schools across Haryana</p>
+      <div class="vehicle-grid">
+        <div class="vehicle-card">
+          <div class="tag">SCHOOL BUS</div>
+          <div class="vehicle-info">
+            <h4>22 to 56 Seater Buses</h4>
+            <ul>
+              <li>BS6 Engine with GPS Tracking</li>
+              <li>CCTV Camera + Fire Extinguisher</li>
+              <li>Comfortable Pushback Seats</li>
+              <li>Finance & Insurance Available</li>
+            </ul>
+            <a href="tel:9812999358" class="btn">Get Best Quote</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- School & Tourist Buses - Tere Notes Ke Hisab Se -->
+    <div class="category">
+      <h3>School & Tourist Buses</h3>
+      <p><strong>90% School Segment</strong> - Trusted by Schools Pan India</p>
+      <p><strong>GPS is only for the customers</strong>
+       <p><strong>VLTD Compulsory for Buses in RTO authorization </strong></p>
+      <div class="vehicle-grid">
+
+        <!-- Model 2050-C -->
+        <div class="vehicle-card">
+          <div class="tag">MODEL 2050-C</div>
+          <div class="vehicle-info">
+            <h4>20.50 Series - 21 Seater</h4>
+            <div class="price">19+1+1 Seater</div>
+            <ul>
+              <li>BS6 Engine with GPS Tracking</li>
+              <li>CCTV Camera + Fire Extinguisher</li>
+              <li>Comfortable Pushback Seats</li>
+              <li>Finance & Insurance Available</li>
+            </ul>
+            <a href="tel:9812999358" class="btn">Get Best Quote</a>
+          </div>
+        </div>
+
+        <!-- Model 2075-D -->
+        <div class="vehicle-card">
+          <div class="tag">MODEL 2075-D</div>
+          <div class="vehicle-info">
+            <h4>20.75 Series - 26 Seater</h4>
+            <div class="price">24+1+1 Seater</div>
+            <ul>
+              <li>Wide Body, More Leg Space</li>
+              <li>High Roof for Comfort</li>
+              <li>BS6 Power Engine</li>
+              <li>Best for School/Staff</li>
+            </ul>
+            <a href="tel:9812999358" class="btn">Get Best Quote</a>
+          </div>
+        </div>
+
+        <!-- Model 2065-E -->
+        <div class="vehicle-card">
+          <div class="tag">MODEL 2065-E</div>
+          <div class="vehicle-info">
+            <h4>20.65 Series - 36 Seater</h4>
+            <div class="price">34+1+1 Seater</div>
+            <ul>
+              <li>Mid Size Bus, Low Maintenance</li>
+              <li>Best Mileage in Segment</li>
+              <li>School + Tourist Permit</li>
+              <li>Strong Build Quality</li>
+            </ul>
+            <a href="tel:9812999358" class="btn">Get Best Quote</a>
+          </div>
+        </div>
+
+        <!-- Model 2075-G -->
+        <div class="vehicle-card">
+          <div class="tag">MODEL 2075-G</div>
+          <div class="vehicle-info">
+            <h4>20.75 Series - 42 Seater</h4>
+            <div class="price">40+1+1 Seater</div>
+            <ul>
+              <li>Standard School Bus</li>
+              <li>Most Selling Model</li>
+              <li>BS6 + ABS + GPS</li>
+              <li>Easy EMI Options</li>
+            </ul>
+            <a href="tel:9812999358" class="btn">Get Best Quote</a>
+          </div>
+        </div>
+
+        <!-- Model 2075-H -->
+        <div class="vehicle-card">
+          <div class="tag">MODEL 2075-H</div>
+          <div class="vehicle-info">
+            <h4>20.75 Series - 48 Seater</h4>
+            <div class="price">46+1+1 Seater</div>
+            <ul>
+              <li>Large Capacity Bus</li>
+              <li>Best for Long Route</li>
+              <li>Luggage Space Available</li>
+              <li>AC/Non-AC Option</li>
+            </ul>
+            <a href="tel:9812999358" class="btn">Get Best Quote</a>
+          </div>
+        </div>
+
+        <!-- Model 2090-K -->
+        <div class="vehicle-card">
+          <div class="tag">MODEL 2090-K</div>
+          <div class="vehicle-info">
+            <h4>20.90 Series - 52 Seater</h4>
+            <div class="price">50+1+1 Seater</div>
+            <ul>
+              <li>High Power Engine</li>
+              <li>Best for Tourist/Contract</li>
+              <li>Comfortable 3x2 Seats</li>
+              <li>Pan India Permit Ready</li>
+            </ul>
+            <a href="tel:9812999358" class="btn">Get Best Quote</a>
+          </div>
+        </div>
+
+        <!-- Model 2090-L -->
+        <div class="vehicle-card">
+          <div class="tag">MODEL 2090-L</div>
+          <div class="vehicle-info">
+            <h4>20.90 Series - 58 Seater</h4>
+            <div class="price">56+1+1 Seater</div>
+            <ul>
+              <li>Maximum Capacity</li>
+              <li>Heavy Duty Chassis</li>
+              <li>Best for Staff Transport</li>
+              <li>Low Running Cost</li>
+            </ul>
+            <a href="tel:9812999358" class="btn">Get Best Quote</a>
+          </div>
+        </div>
+
+        <!-- Model 3009 -->
+        <div class="vehicle-card">
+          <div class="tag">MODEL 3009</div>
+          <div class="vehicle-info">
+            <h4>30.09 Series - 52 Seater</h4>
+            <div class="price">50+1+1 Seater</div>
+            <ul>
+              <li>Premium Bus Segment</li>
+              <li>Air Brake + Power Steering</li>
+              <li>Tourist Bus Body</li>
+              <li>High Resale Value</li>
+            </ul>
+            <a href="tel:9812999358" class="btn">Get Best Quote</a>
+          </div>
+        </div>
+
+        <!-- Model 3010 -->
+        <div class="vehicle-card">
+          <div class="tag">MODEL 3010</div>
+          <div class="vehicle-info">
+            <h4>30.10 Series - 62 Seater</h4>
+            <div class="price">60+1+1 Seater</div>
+            <ul>
+              <li>Biggest Capacity Bus</li>
+              <li>Best for Long Distance</li>
+              <li>Luxury Pushback Seats</li>
+              <li>AC/Non-AC Both Options</li>
+            </ul>
+            <a href="tel:9812999358" class="btn">Get Best Quote</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- LCV - Tere Notes Ke Hisab Se -->
+    <div class="category">
+      <h3>Light Commercial Vehicles (LCV)</h3>
+      <p><strong>Focus Customers:</strong> First Time Users, Transport, Small Business Owners</p>
+      <p><strong>VLTD is only applied for National Permittes</strong></p>
+      <div class="vehicle-grid">
+        <div class="vehicle-card">
+          <div class="tag">MODEL 2049</div>
+          <div class="vehicle-info">
+            <h4>Smaller Commercial Vehicle</h4>
+            <ul>
+              <li>Best for First Time Users</li>
+              <li>Compact & Easy to Drive</li>
+              <li>Low Maintenance Cost</li>
+              <li>High Fuel Efficiency</li>
+              <li>GVW-4995 </li>
+            </ul>
+            <a href="tel:9812999358" class="btn">Enquire Now</a>
+          </div>
+        </div>
+
+        <div class="vehicle-card">
+          <div class="tag">MODEL 2059XP</div>
+          <div class="vehicle-info">
+            <h4>Diesel / CNG Variant</h4>
+            <ul>
+              <li>Diesel & CNG Fuel Options</li>
+              <li>1-2 Ton Payload Capacity</li>
+              <li>Best for Goods Transport</li>
+              <li>Strong ROI for Business</li>
+              <li>GVW-7490</li>
+            </ul>
+            <a href="tel:9812999358" class="btn">Enquire Now</a>
+          </div>
+        </div>
+
+        <div class="vehicle-card">
+          <div class="tag">MODEL 2095</div>
+          <div class="vehicle-info">
+            <h4>LCV Series</h4>
+            <ul>
+              <li>Reliable Commercial Vehicle</li>
+              <li>Good for Transport Business</li>
+              <li>Low Running Cost</li>
+              <li>Finance Options Available</li>
+              <li>GVW- 11449</li>
+            </ul>
+            <a href="tel:9812999358" class="btn">Enquire Now</a>
+          </div>
+        </div>
+
+        <div class="vehicle-card">
+          <div class="tag">MODEL 2080</div>
+          <div class="vehicle-info">
+            <h4>Premium LCV - On Order</h4>
+            <ul>
+              <li>Only on Confirmed Order</li>
+              <li>Purchased by Rare Customers</li>
+              <li>Customized for Specific Needs</li>
+              <Li>GVW-9250</Li>
+            </ul>
+            <a href="tel:9812999358" class="btn">Book Consultation</a>
+          </div>
+        </div>
+
+        <div class="vehicle-card">
+          <div class="tag">MODEL 2110</div>
+          <div class="vehicle-info">
+            <h4>11.10 Series LCV</h4>
+            <ul>
+              <li>Higher Load Capacity</li>
+              <li>Strong Build for Rough Roads</li>
+              <li>Most Selling Model</li>
+              <li>Easy Finance Available</li>
+              <li>GVW-11990</li>
+            </ul>
+            <a href="tel:9812999358" class="btn">Enquire Now</a>
+          </div>
+        </div>
+        <div class="vehicle-card">
+          <div class="tag">MODEL 2110XP</div>
+          <div class="vehicle-info">
+            <h4>11.10 XP Series - Extra Power</h4>
+            <ul>
+              <li>Higher HP Engine</li>
+              <li>Most selling Model for Transporters</li>
+              <li>Easy Finance Available</li>
+              <li>GVW-14250</li>
+            </ul>
+            <a href="tel:9812999358" class="btn">Enquire Now</a>
+          </div>
+        </div>
+
+        <div class="vehicle-card">
+          <div class="tag">MODEL 2114</div>
+          <div class="vehicle-info">
+            <h4>11.14 Series - Heavy Duty</h4>
+            <ul>
+              <li>High Power Engine </li>
+              <li>Best for Long Routes </li>
+              <li>Heavy Build Chassis</li>
+              <li>Easy Finance Available</li>
+              <li>GVW-16371</li>
+            </ul>
+            <a href="9812999358" class="btn">Enquire Now</a>
+          </div>
+        </div>
+
+        <div class="vehicle-card">
+          <div class="tag"> MODEL 3018</div>
+          <div class="vehicle-info">
+            <h4>30.18 Series - Heavy Truck</h4>
+            <ul>
+              <li> Heavy-Duty 6- Cylinder</li>
+              <li> Best for Bulk Transport</li>
+              <li> High Mileage Engine</li>
+              <li> Finance & Permit Support</li>
+              <li>GVW-18000</li>
+            </ul>
+            <a href="9812999358" class="btn"> Enquire Now</a>
+          </div>
+        </div>
+
+        <div class="vehicle-card">
+          <div class="tag"> MODEL 3018XP</div>
+          <div class="vehicle-info">
+            <h4>30.18 XP - Extra Power</h4>
+            <ul>
+              <li>Max Torque for Ghats</li>
+              <li> Best for Overloading Areas</li>
+              <li>Heavy Duty Axels</li>
+              <li> On-Road Service Support</li>
+              <li>GVW-18250</li>
+            </ul>
+            <a href="tel:9812999358" class="btn">Enquire Now</a>
+          </div>
+        </div>
+
+        <div class="vehicle-card">
+          <div class="tag"> MODEL-3015</div>
+          <div class="vehicle-info">
+            <h4>30.15 Series - Heavy Truck</h4>
+            <ul>
+              <li> Compact for City Routes</li>
+              <li> High Poer 6- Cylinder</li>
+              <li> Best for Cement ,Steel Load</li>
+              <li>Easy Finance Available</li>
+              <li> GVW-16371</li>
+            </ul>
+            <a href="tel:9812999358" class="btn">Enquire Now</a>
+          </div>
+        </div>
+
+        <div class="vehicle-card">
+          <div class="tag"> MODEL-3015XP</div>
+          <div class="vehicle-info">
+            <h4>30.15 Extra Power</h4>
+            <ul>
+              <li>Compact +Powerful Combo</li>
+              <li>Best for City + Ghat Routes</li>
+              <li>Heavy Duty Chassis</li>
+              <li>24X7 Roadside Support </li>
+              <li> GVW-17500</li>
+            </ul>
+            <a href="tel:9812999358" class="btn">Enquire Now</a>
+          </div>
+        </div>
+
+        <div class="vehicle-card">
+          <div class="tag"> MODEL-2109</div>
+          <div class="vehicle-info">
+            <h4>21.09 Series - Smart LCV</h4>
+            <ul>
+              <li> Bet Mileage in Category</li>
+              <li> Prefect for Market Load</li>
+              <li> Strong Build, Low EMI</li>
+              <li> Easy Finance Available</li>
+              <li> GVW- 11449</li>
+            </ul>
+            <a href="tel:9812999358" class="btn">Enquire Now</a>
+          </div>
+        </div>
+
+
+
+        <div class="category">
+          <h3>Heavy Duty (HD) Trucks</h3>
+          <p><strong>By Order Only:</strong> Because of High Investment Amount</p>
+          <p><strong>GPS is only for the customers</strong></p>
+
+          
+          <div class="vehicle-grid">
+
+
+            <div class="vehicle-card">
+              <div class="tag">MODEL 6055</div>
+              <div class="vehicle-info">
+                <h4>60.55 Series - Tractor Trailer</h4>
+                <ul>
+                  <li> Heavy Duty 6X4 Drive</li>
+                  <li> Best for Container/ODC</li>
+                  <li> High Torque BS6 Engine</li>
+                  <li> Pan India Permit Support</li>
+                  <li> GVW-55000</li>
+                </ul>
+                <a href="tel:9812999358" class="btn">Enquire Now</a>
+              </div>
+            </div>
+
+            <div class="vehicle-card">
+              <div class="tag">MODEL 6048</div>
+              <div class="vehicle-info">
+                <h4>60.48 Series - Tractor Trailer</h4>
+                <ul>
+                  <li> Best Mileage in Segment</li>
+                  <li> Ideal for 40ft Container</li>
+                  <li> BS6 Power Engine</li>
+                  <li> Low Maintanence Cost</li>
+                  <li> GVW-47500</li>
+                </ul>
+                <a href="tel:9812999358" class="btn">Enquire Now</a>
+              </div>
+            </div>
+
+            <div class="vehicle-card">
+              <div class="tag">MODEL 6028</div>
+              <div class="vehicle-info">
+                <h4>60.28 Series - Tractor Trailer</h4>
+                <ul>
+                  <li> Best for City Container</li>
+                  <li> Short Wheelbase Advantage</li>
+                  <li> BS6 High Torque Engine</li>
+                  <li> Easy Turning Radius</li>
+                  <li> GVW-28000</li>
+                </ul>
+                <a href="tel:9812999358" class="btn">Enquire Now</a>
+              </div>
+            </div>
+
+            <div class="vehicle-card">
+              <div class="tag">MODEL 6035</div>
+              <div class="vehicle-info">
+                <h4>60.35 Series - Tractor Trailer</h4>
+                <ul>
+                  <li> Power + Mileage Balance</li>
+                  <li> Best for Bulk Transport</li>
+                  <li> BS6 Engine with High Torque</li>
+                  <li> Finance & Permit Support</li>
+                  <li> GVW-35000</li>
+
+                </ul>
+                <a href="tel:9812999358" class="btn">Enquire Now</a>
+              </div>
+            </div>
+
+            <div class="vehicle-card">
+              <div class="tag">MODEL 6042</div>
+              <div class="vehicle-info">
+                <h4>60.42 Series - Tractor Trailer</h4>
+                <ul>
+                  <li> High Power Engine</li>
+                  <li> Best for Long Haul Transport</li>
+                  <li> BS6 Engine with High Torque</li>
+                  <li> Finance & Permit Support</li>
+                  <li> GVW-42000</li>
+                </ul>
+                <a href="tel:9812999358" class="btn">Enquire Now</a>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <footer class="footer">
+          © 2026 Bansal Motors | G.T. Madanpur Road, Karnal | Call: 98129 99358        </footer>
+
+</body>
+
+</html>
