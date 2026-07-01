@@ -1,0 +1,153 @@
+.workshop-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.workshop-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1e40af;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.workshop-intro {
+  font-size: 1.1rem;
+  text-align: center;
+  color: #4b5563;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.workshop-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.workshop-card h2 {
+  font-size: 1.5rem;
+  color: #1f2937;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #3b82f6;
+  padding-bottom: 8px;
+}
+
+.service-list {
+  list-style: none;
+  padding: 0;
+}
+
+.service-list li {
+  font-size: 1.1rem;
+  padding: 10px 0;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.service-list li:last-child {
+  border-bottom: none;
+}
+
+.workshop-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.cta-card {
+  background: #eff6ff;
+  text-align: center;
+}
+
+.phone {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #1e40af;
+  margin: 15px 0;
+}
+
+.call-btn, .whatsapp-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  margin: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+}
+
+.call-btn {
+  background: #2563eb;
+}
+
+.whatsapp-btn {
+  background: #25d366;
+}
+
+.call-btn:hover, .whatsapp-btn:hover {
+  opacity: 0.9;
+}
+.toll-free {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1e40af;
+  margin: 8px 0;
+}
+.form-card {
+  margin-top: 30px;
+}
+
+.service-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.submit-btn {
+  background: #dc2626;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  background: #b91c1c;
+}
+@media (max-width: 768px) {
+  .workshop-grid {
+    grid-template-columns: 1fr;
+  }
+  .workshop-title {
+    font-size: 2rem;
+  }
+}

@@ -10,6 +10,7 @@ function Navigation() {
       <Link to="/employee">Our Team</Link>
       <Link to="/roadways-team">Roadways Team</Link>
       <Link to="/outlets">Outlets</Link>
+      <Link to="/workshop">Workshop</Link>
       <Link to="/contact">Contact</Link>
       <Link to="/loan">Loan</Link>
       <Link to="/location">Location</Link>

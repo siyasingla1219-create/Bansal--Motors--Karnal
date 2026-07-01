@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 import Employee from './pages/Employee';
 import RoadwaysTeam from './pages/RoadwaysTeam';
 import Outlets from './components/Outlets';
-import Workshop from './Workshop';
+import Workshop from './pages/Workshop';
 import VehicleCard from './components/VehicleCard';
 import Loan from './pages/Loan';
 import Location from './pages/Location';
@@ -36,9 +36,10 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/roadways-team" element={<RoadwaysTeam />} />
             <Route path="/outlets" element={<Outlets />} />
+            <Route path="/workshop" element={<Workshop />} />
             <Route path="/loan" element={<Loan />} />
             <Route path="/location" element={<Location />} />
-            <Route path="/workshop" element={<Workshop />} />
+            
           </Routes>
         </main>
         <Footer />
